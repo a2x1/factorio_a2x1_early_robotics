@@ -1,0 +1,8 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.18.1
+Date: 2020.06.20
+  Info:
+    - Work in Progress
+  Features:
+    - Robotics and Logistcs technology research is available from beginning of the game
+    - Robotics and Logistcs technologies research reduced time and item requirements

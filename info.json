@@ -1,0 +1,13 @@
+{
+  "name": "a2x1_early_robotics",
+  "version": "0.18.1",
+  "factorio_version": "0.18",
+  "title": "A2x1 Early Robotics",
+  "author": "Inguss",
+  "contact": "Inguss.Neilands@gmail.com",
+  "homepage": "",
+  "description": "WIP ...",
+  "dependencies": [
+    "base >= 0.18.0"
+  ]
+}
