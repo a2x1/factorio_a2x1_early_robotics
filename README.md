@@ -27,6 +27,7 @@ On beginning of the game places the following items in Player inventory
     logistic-robot, count = 200
     logistic-chest-passive-provider, count = 50
     logistic-chest-requester, count = 50
+    logistic-chest-storage, count = 5
 
     assembling-machine-1, count = 20
     inserter, count = 200

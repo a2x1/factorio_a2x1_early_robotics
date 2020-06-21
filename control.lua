@@ -16,6 +16,7 @@ script.on_event(
       player.insert {name = "logistic-robot", count = 200}
       player.insert {name = "logistic-chest-passive-provider", count = 50}
       player.insert {name = "logistic-chest-requester", count = 50}
+      player.insert {name = "logistic-chest-storage", count = 5}
 
       player.insert {name = "assembling-machine-1", count = 20}
       player.insert {name = "inserter", count = 200}
