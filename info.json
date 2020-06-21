@@ -3,7 +3,7 @@
   "title": "A2x1 Early Robotics",
   "contact": "Inguss.Neilands@gmail.com",
   "author": "Inguss",
-  "version": "0.18.3",
+  "version": "0.18.4",
   "factorio_version": "0.18",
   "dependencies": [
     "base >= 0.18.0"
