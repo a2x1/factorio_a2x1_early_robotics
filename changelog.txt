@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.18.3
+Date: 2020.06.21
+  Bugfixes:
+    - Corrected circuit-network technology ingredients
+  Features:
+    - Added red-wire as New Map start item
+---------------------------------------------------------------------------------------------------
 Version: 0.18.2
 Date: 2020.06.21
   Info:

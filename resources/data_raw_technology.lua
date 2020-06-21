@@ -19,7 +19,7 @@ data.raw.technology["circuit-network"].unit.count = 10
 --   {"automation-science-pack", 1},
 --   {"logistic-science-pack", 1}
 -- }
-data.raw.technology["circuit-network"].ingredients = {
+data.raw.technology["circuit-network"].unit.ingredients = {
   {"automation-science-pack", 1}
 }
 
