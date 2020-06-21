@@ -1,8 +1,8 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.18.1
-Date: 2020.06.20
-  Info:
-    - Work in Progress
+Date: 2020.06.21
   Features:
-    - Robotics and Logistcs technology research is available from beginning of the game
-    - Robotics and Logistcs technologies research reduced time and item requirements
+    - Added configuration for Early Game Robotics and Logistcs technology research with reduced time and item requirements
+    - Added configuration for Robots Health, Speed, Battery and Energy usage, Stack and Carry Size
+    - Added configuration for Roboport Energy usage, Construction and Logistics Radius
+    - Added ability to start new map with Robots in Player Inventory

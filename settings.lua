@@ -22,6 +22,28 @@ data:extend(
       },
       order = 12
     },
+    -- multipliers_roboport
+    {
+      type = "double-setting",
+      name = "a2x1_early_robotics-multipliers_roboport-construction_radius",
+      setting_type = "startup",
+      default_value = 5,
+      order = 21
+    },
+    {
+      type = "double-setting",
+      name = "a2x1_early_robotics-multipliers_roboport-logistics_radius",
+      setting_type = "startup",
+      default_value = 5,
+      order = 22
+    },
+    {
+      type = "double-setting",
+      name = "a2x1_early_robotics-multipliers_roboport-energy_usage",
+      setting_type = "startup",
+      default_value = 0.1,
+      order = 23
+    },
     -- multipliers_robot
     {
       type = "double-setting",
@@ -51,14 +73,13 @@ data:extend(
       default_value = 10,
       order = 34
     },
-
-    {
-      type = "double-setting",
-      name = "a2x1_early_robotics-multipliers_robot-max_energy",
-      setting_type = "startup",
-      default_value = 1,
-      order = 35
-    },
+    -- {
+    --   type = "double-setting",
+    --   name = "a2x1_early_robotics-multipliers_robot-max_energy",
+    --   setting_type = "startup",
+    --   default_value = 1,
+    --   order = 35
+    -- },
     {
       type = "double-setting",
       name = "a2x1_early_robotics-multipliers_robot-energy_per_tick",
@@ -72,28 +93,6 @@ data:extend(
       setting_type = "startup",
       default_value = 0.1,
       order = 37
-    },
-    -- multipliers_roboport
-    {
-      type = "double-setting",
-      name = "a2x1_early_robotics-multipliers_roboport-construction_radius",
-      setting_type = "startup",
-      default_value = 5,
-      order = 41
-    },
-    {
-      type = "double-setting",
-      name = "a2x1_early_robotics-multipliers_roboport-logistics_radius",
-      setting_type = "startup",
-      default_value = 5,
-      order = 42
-    },
-    {
-      type = "double-setting",
-      name = "a2x1_early_robotics-multipliers_roboport-energy_usage",
-      setting_type = "startup",
-      default_value = 0.1,
-      order = 43
     },
   }
 )

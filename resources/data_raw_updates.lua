@@ -16,8 +16,8 @@ for i, v in pairs(data.raw["construction-robot"]) do
   v.max_health = v.max_health * settings.startup["a2x1_early_robotics-multipliers_robot-max_health"].value
   v.max_payload_size = v.max_payload_size * settings.startup["a2x1_early_robotics-multipliers_robot-max_payload_size"].value
 
-  local max_energy_num, max_energy_unit = v.max_energy:match("(%d+%.?%d*)(%a+)")
-  v.max_energy = max_energy_num * settings.startup["a2x1_early_robotics-multipliers_robot-max_energy"].value .. max_energy_unit
+  -- local max_energy_num, max_energy_unit = v.max_energy:match("(%d+%.?%d*)(%a+)")
+  -- v.max_energy = max_energy_num * settings.startup["a2x1_early_robotics-multipliers_robot-max_energy"].value .. max_energy_unit
 
   local energy_per_tick_num, energy_per_tick_unit = v.energy_per_tick:match("(%d+%.?%d*)(%a+)")
   v.energy_per_tick = energy_per_tick_num * settings.startup["a2x1_early_robotics-multipliers_robot-energy_per_tick"].value .. energy_per_tick_unit
@@ -33,8 +33,8 @@ for i, v in pairs(data.raw["logistic-robot"]) do
   v.max_health = v.max_health * settings.startup["a2x1_early_robotics-multipliers_robot-max_health"].value
   v.max_payload_size = v.max_payload_size * settings.startup["a2x1_early_robotics-multipliers_robot-max_payload_size"].value
 
-  local max_energy_num, max_energy_unit = v.max_energy:match("(%d+%.?%d*)(%a+)")
-  v.max_energy = max_energy_num * settings.startup["a2x1_early_robotics-multipliers_robot-max_energy"].value .. max_energy_unit
+  -- local max_energy_num, max_energy_unit = v.max_energy:match("(%d+%.?%d*)(%a+)")
+  -- v.max_energy = max_energy_num * settings.startup["a2x1_early_robotics-multipliers_robot-max_energy"].value .. max_energy_unit
 
   local energy_per_tick_num, energy_per_tick_unit = v.energy_per_tick:match("(%d+%.?%d*)(%a+)")
   v.energy_per_tick = energy_per_tick_num * settings.startup["a2x1_early_robotics-multipliers_robot-energy_per_tick"].value .. energy_per_tick_unit

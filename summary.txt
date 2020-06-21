@@ -1,0 +1,6 @@
+Early Game Robotics and Logistcs
+
+Reduced requirement for Early Game Robotics and Logistcs technology research
+Configurable Roboport Energy usage, Construction and Logistics Radius
+Robots Health, Speed, Battery and Energy usage, Stack and Carry Size
+Added Player startup Robotic Items
