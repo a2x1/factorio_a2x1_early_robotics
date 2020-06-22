@@ -74,7 +74,7 @@ Applies Multiplier on Robots Speed
 
 ## Robots Multiplier Carry Size
 
-Default value: 10
+Default value: 100
 
 Applies Multiplier on Robots Carry Size
 

@@ -8,6 +8,8 @@
 --   {"steel-plate", 1},
 --   {"electronic-circuit", 3}
 -- }
+-- data.raw.recipe["flying-robot-frame"].energy_required = 20
+data.raw.recipe["flying-robot-frame"].energy_required = 10
 data.raw.recipe["flying-robot-frame"].ingredients = {
   {"iron-chest", 1},
   {"iron-plate", 10},

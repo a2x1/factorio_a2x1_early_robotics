@@ -70,7 +70,7 @@ data:extend(
       type = "double-setting",
       name = "a2x1_early_robotics-multipliers_robot-max_payload_size",
       setting_type = "startup",
-      default_value = 10,
+      default_value = 100,
       order = 34
     },
     -- {
