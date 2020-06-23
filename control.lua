@@ -1,7 +1,7 @@
 script.on_event(
   defines.events.on_player_created,
   function(event)
-    if settings.startup["a2x1_early_robotics-enable_quick_start"].value then
+    if settings.startup["a2x1_early_robotics-enable_quick_start"].value == "enabled"  then
       local player = game.players[event.player_index]
       player.insert {name = "small-electric-pole", count = 200}
       player.insert {name = "offshore-pump", count = 1}
