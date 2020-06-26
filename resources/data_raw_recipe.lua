@@ -29,30 +29,6 @@ data.raw.recipe["roboport"].ingredients = {
   {"electronic-circuit", 15}
 }
 
--- data.raw.recipe["logistic-chest-passive-provider"].enabled = false
--- data.raw.recipe["logistic-chest-passive-provider"].ingredients = {
---   {"steel-chest", 1},
---   {"electronic-circuit", 3},
---   {"advanced-circuit", 1}
--- }
-data.raw.recipe["logistic-chest-passive-provider"].ingredients = {
-  {"iron-chest", 1},
-  {"iron-plate", 1},
-  {"electronic-circuit", 3}
-}
-
--- data.raw.recipe["logistic-chest-storage"].enabled = false
--- data.raw.recipe["logistic-chest-storage"].ingredients = {
---   {"steel-chest", 1},
---   {"electronic-circuit", 3},
---   {"advanced-circuit", 1}
--- }
-data.raw.recipe["logistic-chest-storage"].ingredients = {
-  {"iron-chest", 1},
-  {"iron-plate", 1},
-  {"electronic-circuit", 3}
-}
-
 -- data.raw.recipe["construction-robot"].enabled = false
 -- data.raw.recipe["construction-robot"].ingredients = {
 --   {"flying-robot-frame", 1},
@@ -71,6 +47,30 @@ data.raw.recipe["construction-robot"].ingredients = {
 data.raw.recipe["logistic-robot"].ingredients = {
   {"flying-robot-frame", 1},
   {"electronic-circuit", 2}
+}
+
+-- data.raw.recipe["logistic-chest-storage"].enabled = false
+-- data.raw.recipe["logistic-chest-storage"].ingredients = {
+--   {"steel-chest", 1},
+--   {"electronic-circuit", 3},
+--   {"advanced-circuit", 1}
+-- }
+data.raw.recipe["logistic-chest-storage"].ingredients = {
+  {"iron-chest", 1},
+  {"iron-plate", 1},
+  {"electronic-circuit", 3}
+}
+
+-- data.raw.recipe["logistic-chest-passive-provider"].enabled = false
+-- data.raw.recipe["logistic-chest-passive-provider"].ingredients = {
+--   {"steel-chest", 1},
+--   {"electronic-circuit", 3},
+--   {"advanced-circuit", 1}
+-- }
+data.raw.recipe["logistic-chest-passive-provider"].ingredients = {
+  {"iron-chest", 1},
+  {"iron-plate", 1},
+  {"electronic-circuit", 3}
 }
 
 -- data.raw.recipe["logistic-chest-active-provider"].enabled = false

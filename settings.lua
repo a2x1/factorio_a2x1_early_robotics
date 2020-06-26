@@ -22,6 +22,15 @@ data:extend(
       },
       order = 12
     },
+    -- data_item_logistic_container
+    {
+      type = "double-setting",
+      name = "a2x1_early_robotics-data_item_logistic_container-extra_inventory_slots",
+      setting_type = "startup",
+      default_value = 52,
+      minimum_value = 0,
+      order = 15
+    },
     -- multipliers_roboport
     {
       type = "double-setting",
