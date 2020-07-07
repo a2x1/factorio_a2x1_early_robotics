@@ -27,7 +27,7 @@ data:extend(
       type = "double-setting",
       name = "a2x1_early_robotics-data_item_logistic_container-extra_inventory_slots",
       setting_type = "startup",
-      default_value = 52,
+      default_value = 2,
       minimum_value = 0,
       order = 15
     },
@@ -58,7 +58,7 @@ data:extend(
       type = "double-setting",
       name = "a2x1_early_robotics-multipliers_robot-stack_size",
       setting_type = "startup",
-      default_value = 500,
+      default_value = 200,
       order = 31
     },
     {
@@ -79,7 +79,7 @@ data:extend(
       type = "double-setting",
       name = "a2x1_early_robotics-multipliers_robot-max_payload_size",
       setting_type = "startup",
-      default_value = 100,
+      default_value = 25,
       order = 34
     },
     -- {
